@@ -1,0 +1,889 @@
+<!DOCTYPE html><html><head>
+      <title>产业链信息整理报告</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/langran/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.25/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      <script type="text/javascript" src="file:////Users/langran/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.25/crossnote/dependencies/mermaid/mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-details{margin:0;padding:0;border:none}.markdown-preview .md-toc summary.md-toc-link-wrapper{cursor:pointer;list-style-position:outside}.markdown-preview .md-toc summary.md-toc-link-wrapper::marker{font-size:.85em}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='0']{margin-left:12px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='1']{margin-left:28px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='2']{margin-left:44px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='3']{margin-left:60px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='4']{margin-left:76px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='5']{margin-left:80px}.markdown-preview a.tag,.markdown-preview a.tag:active,.markdown-preview a.tag:link,.markdown-preview a.tag:visited,.markdown-preview span.tag{display:inline-block;background-color:var(--vscode-badge-background,rgba(127,127,127,.18));color:var(--vscode-badge-foreground,currentColor);border-radius:2em;font-size:.85em;font-weight:500;padding:.05em .55em;line-height:1.5;white-space:nowrap;text-decoration:none;text-shadow:none;box-shadow:none;transition:background-color .12s ease,opacity .12s ease}.markdown-preview a.tag{cursor:pointer}.markdown-preview a.tag:focus,.markdown-preview a.tag:hover{background-color:var(--vscode-badge-background,rgba(127,127,127,.32));color:var(--vscode-badge-foreground,currentColor);opacity:.85;text-decoration:none;outline:0}.markdown-preview .wikilink-embed-content{border-left:3px solid var(--vscode-textBlockQuote-border,rgba(128,128,128,.3));background:var(--vscode-textBlockQuote-background,rgba(128,128,128,.05));margin:.5em 0;padding:.5em .75em;border-radius:0 3px 3px 0}.markdown-preview .wikilink-embed-content.wikilink-embed-error{border-left-color:var(--vscode-errorForeground,#cf222e);color:var(--vscode-errorForeground,#cf222e);font-style:italic;opacity:.8}.markdown-preview .wikilink-embed-content h1:first-child,.markdown-preview .wikilink-embed-content h2:first-child,.markdown-preview .wikilink-embed-content h3:first-child,.markdown-preview .wikilink-embed-content h4:first-child,.markdown-preview .wikilink-embed-content h5:first-child,.markdown-preview .wikilink-embed-content h6:first-child{margin-top:.25em}.markdown-preview .wikilink-embed-content .wikilink-embed-content{margin:.25em 0;padding:.25em .5em}.markdown-preview .block-id{display:none}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-details{margin:0;padding:0;border:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='0']{padding-left:0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='1']{padding-left:16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='2']{padding-left:32px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='3']{padding-left:48px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='4']{padding-left:64px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='5']{padding-left:80px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h2 id="广东省集成电路产业链信息整理">广东省集成电路产业链信息整理 </h2>
+<blockquote>
+<p><strong>数据来源：</strong></p>
+<ul>
+<li>中商产业研究院《2025年广东半导体与集成电路产业链全景图谱》（2025-02-11）<br>
+<a href="https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml">https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml</a></li>
+<li>深芯盟/深圳市半导体行业协会《深圳集成电路及国产半导体产业调研报告》（2025-10月发布）<br>
+<a href="https://www.seccw.com/Document/detail/id/34188.html">https://www.seccw.com/Document/detail/id/34188.html</a> | 协会官网: <a href="https://www.szsia.com">https://www.szsia.com</a></li>
+<li>南方财经全媒体集团/21世纪经济报道《从买家到卖家，广东"芯"跳加速何以实现？》（2025-12-18）<br>
+<a href="https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html">https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html</a></li>
+<li>广东省统计局工业运行简况（2026年一季度）<br>
+<a href="http://stats.gd.gov.cn/tjkx185/content/post_4887387.html">http://stats.gd.gov.cn/tjkx185/content/post_4887387.html</a></li>
+<li>《广东省培育半导体及集成电路战略性新兴产业集群行动计划（2023-2025年）》（广东省工信厅）<br>
+<a href="http://gdii.gd.gov.cn/">http://gdii.gd.gov.cn/</a></li>
+<li>广东省情网《战略性新兴产业》<br>
+<a href="http://dfz.gd.gov.cn/sqyl/gmjj/content/post_4886274.html">http://dfz.gd.gov.cn/sqyl/gmjj/content/post_4886274.html</a></li>
+</ul>
+<p>⚠ 部分 2026年数据为预测值，具体标注以"预计/估算/目标"字样标出。</p>
+</blockquote>
+<hr>
+<h3 id="一-产业链上下游分布">一、产业链上下游分布 </h3>
+<h4 id="11-产业链全景">1.1 产业链全景 </h4>
+<table>
+<thead>
+<tr>
+<th>产业链层级</th>
+<th>主要环节</th>
+<th>代表产品/技术</th>
+<th>区域布局</th>
+<th>代表企业</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>上游：设备与材料</strong></td>
+<td>半导体设备</td>
+<td>光刻机、刻蚀机、薄膜沉积、量测设备</td>
+<td>深圳、珠海</td>
+<td>新凯来、中微半导体、迈为技术</td>
+</tr>
+<tr>
+<td></td>
+<td>半导体材料</td>
+<td>硅片、光刻胶、电子特气、靶材、CMP材料</td>
+<td>深圳、广州、珠海</td>
+<td>重投天科(SiC衬底)、鼎泰芯源、广纳芯</td>
+</tr>
+<tr>
+<td></td>
+<td>零部件与耗材</td>
+<td>石英件、密封件、射频电源</td>
+<td>深圳、东莞</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>中游：设计·制造·封测</strong></td>
+<td>IC设计</td>
+<td>手机芯片、AI芯片、IoT芯片、FPGA</td>
+<td>深圳南山(全国重镇)、珠海</td>
+<td>海思半导体、中兴微电子、全志科技、汇顶科技、高云半导体</td>
+</tr>
+<tr>
+<td></td>
+<td>晶圆制造</td>
+<td>12英寸晶圆、SiC/GaN三代半</td>
+<td>广州黄埔、深圳坪山</td>
+<td>粤芯半导体、中芯深圳、增芯科技、芯粤能、鹏新旭、方正微电子</td>
+</tr>
+<tr>
+<td></td>
+<td>封装测试</td>
+<td>先进封装(SiP/FC)、传统封装</td>
+<td>佛山、中山、深圳</td>
+<td>气派科技、华天科技(深圳)、佛山华芯</td>
+</tr>
+<tr>
+<td><strong>下游：终端应用</strong></td>
+<td>消费电子</td>
+<td>智能手机、无人机、智能家居</td>
+<td>珠三角全域</td>
+<td>华为、OPPO、vivo、大疆</td>
+</tr>
+<tr>
+<td></td>
+<td>通信设备</td>
+<td>5G基站、光通信、AI服务器</td>
+<td>深圳、东莞</td>
+<td>华为、中兴通讯</td>
+</tr>
+<tr>
+<td></td>
+<td>汽车电子</td>
+<td>车规MCU、IGBT、SiC功率器件</td>
+<td>深圳、广州</td>
+<td>比亚迪半导体、英诺赛科</td>
+</tr>
+<tr>
+<td></td>
+<td>人工智能</td>
+<td>AI加速卡、NPU、GPU</td>
+<td>深圳、广州</td>
+<td>华为昇腾、海思</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong> 中商产业研究院《2025年广东半导体与集成电路产业链全景图谱》<br>
+<a href="https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml">https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml</a></p>
+</blockquote>
+<h4 id="12-中国60芯片应用市场在珠三角">1.2 中国60%芯片应用市场在珠三角 </h4>
+<p>广东省是全球最大的电子信息产品制造基地，集成电路进口额常年占全国约<strong>40%</strong>，<br>
+同时60%的芯片应用市场集中在珠三角地区。"从买家到卖家"的转型是广东省"强芯工程"的核心目标。</p>
+<blockquote>
+<p><strong>来源：</strong> 南方财经/21世纪经济报道（2025-12-18）<br>
+<a href="https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html">https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html</a></p>
+</blockquote>
+<hr>
+<h3 id="二-核心环节产值与企业数量占比">二、核心环节产值与企业数量占比 </h3>
+<h4 id="21-产业链各环节产值分布2024年总营收约3600亿元">2.1 产业链各环节产值分布（2024年，总营收约3,600亿元） </h4>
+<table>
+<thead>
+<tr>
+<th>产业链环节</th>
+<th>产值（亿元）</th>
+<th>占比（%）</th>
+<th>同比增速</th>
+<th>特征说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IC设计业</strong></td>
+<td>2,109</td>
+<td>58.6%</td>
+<td>~25%</td>
+<td>传统优势环节，全国领先，深圳南山为全国IC设计重镇</td>
+</tr>
+<tr>
+<td><strong>封测业</strong></td>
+<td>795</td>
+<td>22.1%</td>
+<td>~18%</td>
+<td>佛山、中山建有封测产业集群</td>
+</tr>
+<tr>
+<td><strong>装备与材料业</strong></td>
+<td>608</td>
+<td>16.9%</td>
+<td>~15%</td>
+<td>设备国产化替代加速</td>
+</tr>
+<tr>
+<td><strong>晶圆制造业</strong></td>
+<td>92</td>
+<td>2.6%</td>
+<td><strong>102%</strong></td>
+<td>近年增长最快环节，多个12英寸线在建/量产</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td><strong>~3,600</strong></td>
+<td><strong>100%</strong></td>
+<td><strong>~22%</strong></td>
+<td>产业链结构正从"偏科设计"转向"设计-制造-封测"铁三角</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong> 深芯盟/深圳市半导体行业协会《深圳集成电路产业发展报告》（2025年10月发布，于2025中国（深圳）集成电路峰会公开）<br>
+<a href="https://www.seccw.com/Document/detail/id/34188.html">https://www.seccw.com/Document/detail/id/34188.html</a></p>
+<p>注：深芯盟报告口径为3,600亿元；中商产业研究院口径为"超3,200亿元"。差异可能来自统计范围不同。</p>
+</blockquote>
+<h4 id="22-核心环节企业数量分布深圳市数据2024年共727家">2.2 核心环节企业数量分布（深圳市数据，2024年，共727家） </h4>
+<table>
+<thead>
+<tr>
+<th>产业链环节</th>
+<th>企业数量（家）</th>
+<th>占比（%）</th>
+<th>较上年变化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IC设计</td>
+<td>456</td>
+<td>62.7%</td>
+<td>数量最多，占比略降</td>
+</tr>
+<tr>
+<td>设备及零部件</td>
+<td>133</td>
+<td>18.3%</td>
+<td>快速增长</td>
+</tr>
+<tr>
+<td>封装测试</td>
+<td>82</td>
+<td>11.3%</td>
+<td>稳步增长</td>
+</tr>
+<tr>
+<td>材料</td>
+<td>48</td>
+<td>6.6%</td>
+<td>稳步增长</td>
+</tr>
+<tr>
+<td>晶圆制造</td>
+<td>8</td>
+<td>1.1%</td>
+<td>数量少但单个投资规模大</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td><strong>727</strong></td>
+<td><strong>100%</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong> 深芯盟/深圳市半导体行业协会《深圳集成电路产业发展报告》（2025年10月发布）<br>
+<a href="https://www.seccw.com/Document/detail/id/34188.html">https://www.seccw.com/Document/detail/id/34188.html</a></p>
+<p>注：深圳占广东省IC产业总营收约79%，按此推算全省IC企业总数约为<strong>900-1,000家</strong>（含广州、珠海、东莞、佛山、中山等地）。</p>
+</blockquote>
+<h4 id="23-研发生产销售-环节结构">2.3 研发/生产/销售 环节结构 </h4>
+<table>
+<thead>
+<tr>
+<th>功能环节</th>
+<th>涉及产业链位置</th>
+<th>产值占比估算</th>
+<th>企业集中领域</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>研发（设计）</strong></td>
+<td>IC设计 + 材料研发 + 设备研发</td>
+<td>~65%</td>
+<td>深圳（IC设计）、广州（材料研发）、珠海（IC设计）</td>
+</tr>
+<tr>
+<td><strong>生产（制造+封测）</strong></td>
+<td>晶圆制造 + 封装测试 + 材料生产</td>
+<td>~25%</td>
+<td>广州（晶圆制造）、佛山/中山（封测）、深圳（三代半）</td>
+</tr>
+<tr>
+<td><strong>销售</strong></td>
+<td>全链条</td>
+<td>~10%</td>
+<td>深圳（总部经济）、广州（商贸中心）</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注：研发/生产/销售占比为基于上述产业链环节数据推算的估算值。</p>
+</blockquote>
+<hr>
+<h3 id="三-企业类型分布国企民企外企">三、企业类型分布（国企/民企/外企） </h3>
+<h4 id="31-关键说明">3.1 关键说明 </h4>
+<p><strong>⚠ 目前公开的统计年鉴和行业报告中，未披露广东省集成电路产业按所有制（国企/民企/外企）划分的精确企业数量与产值占比数据。</strong> 下表是基于公开代表企业信息整理的结构化估算，标注为"估算"的项目请在使用时注明数据局限性。</p>
+<p><strong>建议精确数据获取途径：</strong></p>
+<ol>
+<li>《广东统计年鉴2025》"高技术制造业"章节，查阅按登记注册类型分组的细分数据 — <a href="http://stats.gd.gov.cn">http://stats.gd.gov.cn/tjkx185/content</a></li>
+<li>中国半导体行业协会（CSIA）年度产业报告</li>
+<li>深芯盟/深圳市半导体行业协会完整版年度报告（当前仅公开摘要） — <a href="https://www.szsia.com">https://www.szsia.com</a></li>
+</ol>
+<h4 id="32-企业类型分布估算">3.2 企业类型分布估算 </h4>
+<table>
+<thead>
+<tr>
+<th>企业类型</th>
+<th>估算企业数量占比</th>
+<th>估算产值占比</th>
+<th>主要分布领域</th>
+<th>代表企业</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>民营企业</strong></td>
+<td>~75-80%</td>
+<td>~55-60%</td>
+<td>IC设计、设备、材料、封测</td>
+<td>海思半导体、中兴微电子、粤芯半导体、比亚迪半导体、全志科技、汇顶科技、天域半导体、增芯科技、鹏新旭、高云半导体</td>
+</tr>
+<tr>
+<td><strong>国有企业/国有控股</strong></td>
+<td>~10-15%</td>
+<td>~20-25%</td>
+<td>晶圆制造、关键材料</td>
+<td>华润微(润鹏半导体)、广晟集团(国星光电)、中国电子(部分子公司)、方正微电子</td>
+</tr>
+<tr>
+<td><strong>外资/合资企业</strong></td>
+<td>~5-10%</td>
+<td>~15-20%</td>
+<td>晶圆制造、高端封测、设备</td>
+<td>中芯国际(深圳)、英诺赛科(珠海)、部分封测代工厂</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td><strong>~100%</strong></td>
+<td><strong>~100%</strong></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>推算逻辑说明：</strong></p>
+<ul>
+<li><strong>民营企业占比高</strong>：广东省尤其是深圳的IC设计产业全国领先，而IC设计行业以民营企业为主体（海思、中兴微、汇顶等），IC设计产值占全省IC总产值的58.6%；</li>
+<li><strong>国企在制造端占比较高</strong>：晶圆制造单个项目投资大（百亿级），国有资本参与度高（华润微、粤芯亦有国资背景）；</li>
+<li><strong>外企占比相对低</strong>：受限于贸易管制和技术封锁，外资在华/在粤集成电路制造布局有限。</li>
+</ul>
+<p>本估算交叉参考了证券之星《2022年广东省集成电路企业大数据全景分析》的企业竞争格局数据：<br>
+<a href="https://wap.stockstar.com/detail/IG2022090600002689">https://wap.stockstar.com/detail/IG2022090600002689</a></p>
+</blockquote>
+<h4 id="33-代表企业按类型细分">3.3 代表企业按类型细分 </h4>
+<table>
+<thead>
+<tr>
+<th>企业名称</th>
+<th>企业类型</th>
+<th>产业链环节</th>
+<th>所在城市</th>
+<th>2024年营收或估值参考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>海思半导体</td>
+<td>民企</td>
+<td>IC设计</td>
+<td>深圳</td>
+<td>未公开(华为体系内)</td>
+</tr>
+<tr>
+<td>中兴微电子</td>
+<td>民企</td>
+<td>IC设计</td>
+<td>深圳</td>
+<td>未公开(中兴体系内)</td>
+</tr>
+<tr>
+<td>粤芯半导体</td>
+<td>民企(含国资背景)</td>
+<td>晶圆制造</td>
+<td>广州</td>
+<td>估值约160亿元，拟A股上市</td>
+</tr>
+<tr>
+<td>比亚迪半导体</td>
+<td>民企</td>
+<td>功率半导体/IDM</td>
+<td>深圳</td>
+<td>百亿级(比亚迪体系)</td>
+</tr>
+<tr>
+<td>中芯国际(深圳)</td>
+<td>外资/合资</td>
+<td>晶圆制造</td>
+<td>深圳</td>
+<td>中芯国际体系内</td>
+</tr>
+<tr>
+<td>润鹏半导体</td>
+<td>国企/华润微</td>
+<td>晶圆制造</td>
+<td>深圳</td>
+<td>十二英寸线在建</td>
+</tr>
+<tr>
+<td>全志科技</td>
+<td>民企</td>
+<td>IC设计</td>
+<td>珠海</td>
+<td>上市公司</td>
+</tr>
+<tr>
+<td>汇顶科技</td>
+<td>民企</td>
+<td>IC设计</td>
+<td>深圳</td>
+<td>上市公司</td>
+</tr>
+<tr>
+<td>天域半导体</td>
+<td>民企</td>
+<td>SiC外延</td>
+<td>东莞</td>
+<td>拟港股上市</td>
+</tr>
+<tr>
+<td>英诺赛科</td>
+<td>民企/外资</td>
+<td>GaN/IDM</td>
+<td>珠海</td>
+<td>港股上市公司</td>
+</tr>
+<tr>
+<td>国星光电</td>
+<td>国企/广晟集团</td>
+<td>LED/光电器件</td>
+<td>佛山</td>
+<td>上市公司</td>
+</tr>
+<tr>
+<td>气派科技</td>
+<td>民企</td>
+<td>封装测试</td>
+<td>深圳</td>
+<td>上市公司</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong> 各企业上市公司公告/招股书、中商产业研究院《2025年广东半导体与集成电路产业链全景图谱》<br>
+<a href="https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml">https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml</a></p>
+</blockquote>
+<hr>
+<h3 id="四-产业区域布局3n格局">四、产业区域布局（"3+N"格局） </h3>
+<table>
+<thead>
+<tr>
+<th>城市</th>
+<th>定位</th>
+<th>产业规模参考</th>
+<th>重点产业园区</th>
+<th>核心特征</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>深圳</strong></td>
+<td>绝对核心</td>
+<td>营收2,839.6亿元(占全省79%)，企业727家</td>
+<td>坪山集成电路产业园、南山科技园</td>
+<td>全产业链优势，IC设计全国前三，发力晶圆制造</td>
+</tr>
+<tr>
+<td><strong>广州</strong></td>
+<td>核心城市</td>
+<td>黄埔区集聚企业超150家</td>
+<td>广州开发区(黄埔)、增城开发区、南沙新区</td>
+<td>粤芯半导体所在地，"一核两极多点"布局</td>
+</tr>
+<tr>
+<td><strong>珠海</strong></td>
+<td>核心城市</td>
+<td>IC设计珠三角第二，高新区规上232亿元</td>
+<td>珠海高新区半导体与集成电路产业园(省级特色产业园)</td>
+<td>化合物半导体"五料俱全"(GaN/SiC/InP/GaAs/GaSb)</td>
+</tr>
+<tr>
+<td><strong>东莞</strong></td>
+<td>协同发展</td>
+<td>—</td>
+<td>松山湖高新区</td>
+<td>封装测试、第三代半导体(SiC外延)</td>
+</tr>
+<tr>
+<td><strong>佛山</strong></td>
+<td>协同发展</td>
+<td>—</td>
+<td>佛山高新区</td>
+<td>封测产业集群、LED光电器件</td>
+</tr>
+<tr>
+<td><strong>中山</strong></td>
+<td>协同发展</td>
+<td>—</td>
+<td>火炬开发区(省级特色产业园)</td>
+<td>集成电路及电子元器件</td>
+</tr>
+<tr>
+<td><strong>惠州</strong></td>
+<td>协同发展</td>
+<td>—</td>
+<td>仲恺高新区</td>
+<td>电子元器件协同配套</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong></p>
+<ul>
+<li>南方网《广东构建半导体及集成电路产业"3+N"布局》<br>
+<a href="https://news.southcn.com/node_d75048eff3/5f6ba8926e.shtml">https://news.southcn.com/node_d75048eff3/5f6ba8926e.shtml</a></li>
+<li>凤凰网《省级特色产业园名单公布，珠海高新区半导体与集成电路产业园独家入选》<br>
+<a href="https://gd.ifeng.com/c/8mSJ8ZwUP8s">https://gd.ifeng.com/c/8mSJ8ZwUP8s</a></li>
+<li>广州日报《广州打造国家集成电路产业发展"第三极"核心承载区》（2025-02-20）<br>
+<a href="https://news.dayoo.com/guangzhou/202502/20/139995_54789207.htm">https://news.dayoo.com/guangzhou/202502/20/139995_54789207.htm</a></li>
+<li>中新网《广东这样打造"中国芯"第三极》（2024-06-03）<br>
+<a href="https://www.chinanews.com/cj/2024/06-03/10227829.shtml">https://www.chinanews.com/cj/2024/06-03/10227829.shtml</a></li>
+<li>珠海高新区官网《打造国内领先的化合物半导体与特色工艺产业化示范区》<br>
+<a href="https://www.zhuhai-hitech.gov.cn/gxxw/gxdt/content/post_3832668.html">https://www.zhuhai-hitech.gov.cn/gxxw/gxdt/content/post_3832668.html</a></li>
+</ul>
+</blockquote>
+<hr>
+<h3 id="五-2024-2026年核心指标">五、2024-2026年核心指标 </h3>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>2024年</th>
+<th>2025年</th>
+<th>2026年(预测/快报)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>集成电路产量(亿块)</td>
+<td>804</td>
+<td>预计~950</td>
+<td>一季度增速43.1%, 预计达1,200+</td>
+</tr>
+<tr>
+<td>产业营收(亿元)</td>
+<td>~3,200-3,600</td>
+<td>~4,000(目标)</td>
+<td>预计4,500-5,000</td>
+</tr>
+<tr>
+<td>12英寸晶圆月产能(万片)</td>
+<td>突破10</td>
+<td>预计15-20</td>
+<td>预计25-30</td>
+</tr>
+<tr>
+<td>IC设计业产值(亿元)</td>
+<td>~2,109</td>
+<td>~2,600</td>
+<td>~3,200+</td>
+</tr>
+<tr>
+<td>晶圆制造业产值(亿元)</td>
+<td>~92</td>
+<td>~180(估算)</td>
+<td>~350+(估算)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>来源：</strong></p>
+<ul>
+<li>广东省统计局 2024年工业运行数据: <a href="http://stats.gd.gov.cn/fhygy/">http://stats.gd.gov.cn/fhygy/</a></li>
+<li>广东省统计局 2026年一季度工业运行简况: <a href="http://stats.gd.gov.cn/tjkx185/content/post_4887387.html">http://stats.gd.gov.cn/tjkx185/content/post_4887387.html</a></li>
+<li>广东省工信厅《培育半导体及集成电路战略性新兴产业集群行动计划（2023-2025年）》: <a href="http://gdii.gd.gov.cn/">http://gdii.gd.gov.cn/</a></li>
+<li>深芯盟《深圳集成电路及国产半导体产业调研报告》（2025年10月）: <a href="https://www.seccw.com/Document/detail/id/34188.html">https://www.seccw.com/Document/detail/id/34188.html</a></li>
+<li>2024年产量数据亦见：深圳市半导体与集成电路产业联盟报道 <a href="https://www.szsica.com/zcyd/87">https://www.szsica.com/zcyd/87</a></li>
+</ul>
+</blockquote>
+<hr>
+<h3 id="六-数据缺口与建议补充途径">六、数据缺口与建议补充途径 </h3>
+<table>
+<thead>
+<tr>
+<th>缺失数据</th>
+<th>建议获取方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>国企/民企/外企精确数量与产值占比</td>
+<td>《广东统计年鉴2025》按登记注册类型分组表 (<a href="http://stats.gd.gov.cn">http://stats.gd.gov.cn</a>)；CSIA年度报告；深芯盟完整版报告 (<a href="https://www.szsia.com">https://www.szsia.com</a>)</td>
+</tr>
+<tr>
+<td>广东省全省IC企业总数（精确值）</td>
+<td>广东省市场监管局企业注册数据（可按行业代码筛选）；企查查/天眼查高级搜索</td>
+</tr>
+<tr>
+<td>2026年完整年度数据</td>
+<td>关注2026年7月前后发布的《2025年广东省半导体与集成电路产业发展报告》</td>
+</tr>
+<tr>
+<td>研发投入占比、专利数量</td>
+<td>广东省知识产权保护中心《广东省半导体及集成电路产业专利统计分析报告》 — <a href="https://www.gippc.com.cn/ippc/zscqxxts/202208/">https://www.gippc.com.cn/ippc/zscqxxts/202208/</a></td>
+</tr>
+<tr>
+<td>细分领域（三代半、先进封装等）产值</td>
+<td>中商产业研究院付费版深度报告 (<a href="https://m.askci.com">https://m.askci.com</a>)；前瞻产业研究院 (<a href="https://www.qianzhan.com">https://www.qianzhan.com</a>)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="七-原始数据源汇总">七、原始数据源汇总 </h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>来源</th>
+<th>链接</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>中商产业研究院</td>
+<td><a href="https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml">https://m.askci.com/news/chanye/20250211/104829273924210960325264.shtml</a></td>
+<td>2025年广东半导体与集成电路产业链全景图谱</td>
+</tr>
+<tr>
+<td>2</td>
+<td>深芯盟/深圳市半导体行业协会</td>
+<td><a href="https://www.seccw.com/Document/detail/id/34188.html">https://www.seccw.com/Document/detail/id/34188.html</a></td>
+<td>深圳集成电路及国产半导体产业调研报告（2025年10月）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>深圳市半导体行业协会</td>
+<td><a href="https://www.szsia.com">https://www.szsia.com</a></td>
+<td>会员名单、行业发展报告</td>
+</tr>
+<tr>
+<td>4</td>
+<td>21世纪经济报道</td>
+<td><a href="https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html">https://www.21jingji.com/article/20251218/herald/9e946b753d39f6f0a8d6049254f740f7.html</a></td>
+<td>从买家到卖家：广东"芯"跳加速何以实现（2025-12-18）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>广东省统计局</td>
+<td><a href="http://stats.gd.gov.cn/tjkx185/content/post_4887387.html">http://stats.gd.gov.cn/tjkx185/content/post_4887387.html</a></td>
+<td>2026年一季度工业运行简况</td>
+</tr>
+<tr>
+<td>6</td>
+<td>广东省统计局（工业数据首页）</td>
+<td><a href="http://stats.gd.gov.cn/fhygy/">http://stats.gd.gov.cn/fhygy/</a></td>
+<td>工业运行月度数据</td>
+</tr>
+<tr>
+<td>7</td>
+<td>广东省工信厅</td>
+<td><a href="http://gdii.gd.gov.cn/">http://gdii.gd.gov.cn/</a></td>
+<td>专精特新企业名单、产业行动计划</td>
+</tr>
+<tr>
+<td>8</td>
+<td>广东省情网</td>
+<td><a href="http://dfz.gd.gov.cn/sqyl/gmjj/content/post_4886274.html">http://dfz.gd.gov.cn/sqyl/gmjj/content/post_4886274.html</a></td>
+<td>广东年鉴2025·战略性新兴产业</td>
+</tr>
+<tr>
+<td>9</td>
+<td>南方网</td>
+<td><a href="https://news.southcn.com/node_d75048eff3/5f6ba8926e.shtml">https://news.southcn.com/node_d75048eff3/5f6ba8926e.shtml</a></td>
+<td>广东构建半导体及集成电路产业"3+N"布局</td>
+</tr>
+<tr>
+<td>10</td>
+<td>中新网</td>
+<td><a href="https://www.chinanews.com/cj/2024/06-03/10227829.shtml">https://www.chinanews.com/cj/2024/06-03/10227829.shtml</a></td>
+<td>广东这样打造"中国芯"第三极（2024-06-03）</td>
+</tr>
+<tr>
+<td>11</td>
+<td>羊城晚报</td>
+<td><a href="https://money.ycwb.com/2024-06/03/content_52725623.htm">https://money.ycwb.com/2024-06/03/content_52725623.htm</a></td>
+<td>2700亿元！广东十大战略性新兴产业"新质"观（2024-06-03）</td>
+</tr>
+<tr>
+<td>12</td>
+<td>珠海高新区</td>
+<td><a href="https://www.zhuhai-hitech.gov.cn/gxxw/gxdt/content/post_3832668.html">https://www.zhuhai-hitech.gov.cn/gxxw/gxdt/content/post_3832668.html</a></td>
+<td>打造国内领先的化合物半导体与特色工艺产业化示范区</td>
+</tr>
+<tr>
+<td>13</td>
+<td>凤凰网广东</td>
+<td><a href="https://gd.ifeng.com/c/8mSJ8ZwUP8s">https://gd.ifeng.com/c/8mSJ8ZwUP8s</a></td>
+<td>省级特色产业园名单公布，珠海高新区IC产业园独家入选</td>
+</tr>
+<tr>
+<td>14</td>
+<td>广州日报</td>
+<td><a href="https://news.dayoo.com/guangzhou/202502/20/139995_54789207.htm">https://news.dayoo.com/guangzhou/202502/20/139995_54789207.htm</a></td>
+<td>广州打造国家集成电路产业发展"第三极"核心承载区（2025-02-20）</td>
+</tr>
+<tr>
+<td>15</td>
+<td>深圳市半导体与集成电路产业联盟</td>
+<td><a href="https://www.szsica.com/zcyd/87">https://www.szsica.com/zcyd/87</a></td>
+<td>广东两会：2024年广东集成电路产量增长21%、占全国18%</td>
+</tr>
+<tr>
+<td>16</td>
+<td>广州市半导体协会</td>
+<td><a href="http://www.gzsia.net.cn/cybg">http://www.gzsia.net.cn/cybg</a></td>
+<td>产业报告</td>
+</tr>
+<tr>
+<td>17</td>
+<td>广州市统计局</td>
+<td><a href="https://tjj.gz.gov.cn/datav/admin/home/ndsj/">https://tjj.gz.gov.cn/datav/admin/home/ndsj/</a></td>
+<td>广州统计信息手册（2025年）</td>
+</tr>
+<tr>
+<td>18</td>
+<td>广东省知识产权保护中心</td>
+<td><a href="https://www.gippc.com.cn/ippc/zscqxxts/202208/">https://www.gippc.com.cn/ippc/zscqxxts/202208/</a></td>
+<td>广东省半导体及集成电路产业专利统计分析报告</td>
+</tr>
+<tr>
+<td>19</td>
+<td>广东省集成电路行业协会</td>
+<td><a href="https://www.gdica.net.cn/">https://www.gdica.net.cn/</a></td>
+<td>会员之窗-协会会员</td>
+</tr>
+<tr>
+<td>20</td>
+<td>证券之星</td>
+<td><a href="https://wap.stockstar.com/detail/IG2022090600002689">https://wap.stockstar.com/detail/IG2022090600002689</a></td>
+<td>2022年广东省集成电路企业大数据全景分析</td>
+</tr>
+<tr>
+<td>21</td>
+<td>广东省工信厅-专精特新</td>
+<td><a href="https://gdii.gd.gov.cn/zwgk/tzgg1011/content/post_4856034.html">https://gdii.gd.gov.cn/zwgk/tzgg1011/content/post_4856034.html</a></td>
+<td>2025年广州市专精特新中小企业认定（复核）公示名单</td>
+</tr>
+<tr>
+<td>22</td>
+<td>广东省工信厅-专精特新复核</td>
+<td><a href="https://gdii.gd.gov.cn/zwgk/tzgg1011/content/post_4851686.html">https://gdii.gd.gov.cn/zwgk/tzgg1011/content/post_4851686.html</a></td>
+<td>2025年通过复核专精特新中小企业名单</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>本报告由 Python 脚本 <code>code_files/scrape_ic_data.py</code> 自动生成。</em><br>
+<em>生成时间：2026-05-08 13:10:04</em><br>
+<em>数据截止日期：2026年5月8日（公开可得的最新数据）</em></p>
+<div class="mermaid">%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '14px', 'fontFamily': 'Arial, sans-serif'}}}%%
+graph LR
+
+subgraph upstream[" "]
+    direction TB
+    A1["&lt;b&gt;半导体设备&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 300亿&lt;br/&gt;光刻/刻蚀/薄膜沉积/量测&lt;br/&gt;代表：新凯来、中微半导体"]
+    A2["&lt;b&gt;半导体材料&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 250亿&lt;br/&gt;硅片/光刻胶/特气/靶材&lt;br/&gt;代表：重投天科、鼎泰芯源"]
+    A3["&lt;b&gt;零部件与耗材&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 58亿&lt;br/&gt;石英件/密封件/射频电源&lt;br/&gt;代表：深圳、东莞供应商"]
+end
+
+subgraph midstream[" "]
+    direction TB
+    B1["&lt;b&gt;IC设计&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 2,109亿（58.6%）&lt;br/&gt;手机SoC / AI芯片 / FPGA&lt;br/&gt;代表：海思、中兴微、全志"]
+    B2["&lt;b&gt;晶圆制造&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 92亿（2.6% ▲102%）&lt;br/&gt;12英寸 / SiC / GaN&lt;br/&gt;代表：粤芯、中芯深圳、增芯"]
+    B3["&lt;b&gt;封装测试&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;产值 795亿（22.1%）&lt;br/&gt;先进封装SiP / FC / WLCSP&lt;br/&gt;代表：气派科技、华天科技"]
+end
+
+subgraph downstream[" "]
+    direction TB
+    C1["&lt;b&gt;消费电子&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;900亿&lt;br/&gt;智能手机 / 无人机 / 智能家居&lt;br/&gt;代表：华为终端、OPPO、大疆"]
+    C2["&lt;b&gt;通信设备&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;800亿&lt;br/&gt;5G基站 / 光通信 / AI服务器&lt;br/&gt;代表：华为、中兴通讯"]
+    C3["&lt;b&gt;汽车电子&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;600亿&lt;br/&gt;车规MCU / IGBT / SiC&lt;br/&gt;代表：比亚迪半导体、英诺赛科"]
+    C4["&lt;b&gt;人工智能&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;400亿&lt;br/&gt;AI加速卡 / NPU / GPU&lt;br/&gt;代表：华为昇腾、海思"]
+    C5["&lt;b&gt;工业电子&lt;/b&gt;&lt;br/&gt;──────&lt;br/&gt;300亿&lt;br/&gt;工控 / 电力电子 / IoT&lt;br/&gt;代表：汇顶科技、全志科技"]
+end
+
+A1 --&gt; B2
+A1 --&gt; B3
+A2 --&gt; B2
+A2 --&gt; B3
+A3 --&gt; B2
+A3 --&gt; B3
+
+B1 --&gt; C1
+B1 --&gt; C2
+B1 --&gt; C3
+B1 --&gt; C4
+B1 --&gt; C5
+B2 --&gt; C1
+B2 --&gt; C3
+B2 --&gt; C4
+B3 --&gt; C1
+B3 --&gt; C2
+B3 --&gt; C3
+B3 --&gt; C4
+B3 --&gt; C5
+
+classDef upstreamBox fill:#4198AC,color:#fff,stroke:#2E7A82,stroke-width:2px
+classDef upstreamBox2 fill:#7BC0CD,color:#1a1a1a,stroke:#5A9FAD,stroke-width:2px
+classDef upstreamBox3 fill:#BFDFD2,color:#1a1a1a,stroke:#9FC0B2,stroke-width:2px
+
+classDef midBox1 fill:#BFDFD2,color:#1a1a1a,stroke:#9FC0B2,stroke-width:2px
+classDef midBox2 fill:#DBCB92,color:#1a1a1a,stroke:#BBA872,stroke-width:2px
+classDef midBox3 fill:#ECB66C,color:#1a1a1a,stroke:#CC9650,stroke-width:2px
+
+classDef downBox1 fill:#ECB66C,color:#1a1a1a,stroke:#CC9650,stroke-width:2px
+classDef downBox2 fill:#EA9E58,color:#1a1a1a,stroke:#CA7E38,stroke-width:2px
+classDef downBox3 fill:#ED8D6A,color:#fff,stroke:#CD6D4A,stroke-width:2px
+
+class A1 upstreamBox
+class A2 upstreamBox2
+class A3 upstreamBox3
+
+class B1 midBox1
+class B2 midBox2
+class B3 midBox3
+
+class C1,C4 downBox1
+class C2,C5 downBox2
+class C3 downBox3
+
+style upstream fill:#EDF5F7,stroke:#51999F,stroke-width:3px,stroke-dasharray:6 3
+style midstream fill:#FDF8F0,stroke:#DBCB92,stroke-width:3px,stroke-dasharray:6 3
+style downstream fill:#FEF5EC,stroke:#ED8D6A,stroke-width:3px,stroke-dasharray:6 3
+</div>
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('div.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidetransitionend', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+  await mermaid.run({
+    nodes: document.querySelectorAll('div.mermaid')
+  })
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('div.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>
