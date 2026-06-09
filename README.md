@@ -1,7 +1,7 @@
 # 管理学课程论文
 ## 项目介绍
-由Grpup1共同完成
-research.md为项目研究背景
+- 由Grpup1共同完成
+- research.md为项目研究背景
 ## 文件目录
 - code_files:相关代码文件
 - data:基础数据(产值数据、产业链数据等)
