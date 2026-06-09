@@ -1,0 +1,117 @@
+\contentsline {section}{\numberline {1}绪论}{7}{section.1}%
+\contentsline {subsection}{\numberline {1.1}研究背景与意义}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}研究目标与方法}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}报告结构}{7}{subsection.1.3}%
+\contentsline {section}{\numberline {2}基础数据挖掘与整理}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}企业名录}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}产出数据（2023--2025）}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}产业基础与配套设施}{13}{subsection.2.3}%
+\contentsline {section}{\numberline {3}产业画像}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}规模特征}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}结构特征}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}发展趋势（2023--2025）}{15}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}增长轨迹与周期韧性}{15}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}技术演进与迭代}{16}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}关键痛点}{17}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}关键指标体系}{17}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}核心指标趋势（2023--2025年）}{18}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}关联分析：高投入 → 强产出 → 快转化}{18}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}各环节技术成熟度}{19}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}市场需求结构}{19}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}市场结构与集中度}{20}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}市场集中度（CR5/CR10/CR30）}{20}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}企业规模结构}{21}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}所有制结构}{22}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}区域资本集中度}{22}{subsubsection.3.5.4}%
+\contentsline {section}{\numberline {4}人才画像}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}人才规模与构成}{23}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}人才总量与产业分布}{23}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}人才区域布局}{25}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}学历背景结构}{26}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}职称结构}{27}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}年龄结构}{28}{subsubsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.2}核心人才需求}{28}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}按产业类别的人才需求}{28}{subsubsection.4.2.1}%
+\contentsline {paragraph}{新兴产业：先进制造与研发人才。}{28}{section*.36}%
+\contentsline {paragraph}{未来产业：具身智能与先进架构。}{29}{section*.37}%
+\contentsline {paragraph}{传统产业：数字化转型与功率半导体。}{29}{section*.38}%
+\contentsline {subsubsection}{\numberline {4.2.2}价值链各环节需求}{29}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}岗位结构与供需特征}{29}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}核心技能与资格要求}{30}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}经验偏好与招聘特征}{30}{subsubsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.3}人才分布与流动}{31}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}空间集中度与全国格局}{31}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}省内流动格局}{31}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}政府引才举措}{32}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}高校人才培养与留存}{32}{subsubsection.4.3.4}%
+\contentsline {paragraph}{招生规模扩大。}{32}{section*.42}%
+\contentsline {paragraph}{六大省级IC人才培养基地。}{32}{section*.43}%
+\contentsline {paragraph}{四种产学研合作模式。}{33}{table.caption.45}%
+\contentsline {subsubsection}{\numberline {4.3.5}核心结构性问题}{33}{subsubsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.4}人才政策对接}{34}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}多层次政策体系概览}{34}{subsubsection.4.4.1}%
+\contentsline {paragraph}{省级层面：战略性引才与宏观激励。}{34}{section*.46}%
+\contentsline {paragraph}{市区级层面。}{34}{section*.47}%
+\contentsline {subsubsection}{\numberline {4.4.2}各类人才的政策覆盖与适配性}{34}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}人才薪酬水平}{35}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}产业竞争力评价}{35}{subsubsection.4.4.4}%
+\contentsline {section}{\numberline {5}集群竞争力分析}{36}{section.5}%
+\contentsline {subsection}{\numberline {5.1}理论基础}{36}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}波特的钻石模型}{36}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}比较优势理论}{37}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}广东三大核心IC集群概览}{37}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}深圳集群：设计与创新中心}{37}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}广州集群：晶圆制造中心}{38}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}珠海集群：第三代半导体基地}{38}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}技术创新能力对比}{38}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}产业链协作分析}{39}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}省级集群钻石模型分析}{40}{subsection.5.8}%
+\contentsline {subsubsection}{\numberline {5.8.1}生产要素条件}{40}{subsubsection.5.8.1}%
+\contentsline {subsubsection}{\numberline {5.8.2}需求条件}{40}{subsubsection.5.8.2}%
+\contentsline {subsubsection}{\numberline {5.8.3}相关与支持性产业}{40}{subsubsection.5.8.3}%
+\contentsline {subsubsection}{\numberline {5.8.4}企业战略、结构与竞争}{41}{subsubsection.5.8.4}%
+\contentsline {subsubsection}{\numberline {5.8.5}政府}{41}{subsubsection.5.8.5}%
+\contentsline {subsubsection}{\numberline {5.8.6}机遇}{41}{subsubsection.5.8.6}%
+\contentsline {subsubsection}{\numberline {5.8.7}空间布局总结}{41}{subsubsection.5.8.7}%
+\contentsline {subsection}{\numberline {5.9}国内对标分析}{41}{subsection.5.9}%
+\contentsline {subsubsection}{\numberline {5.9.1}产业规模与结构对比}{41}{subsubsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.2}产业链完整性对比}{42}{subsubsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.3}人才储备与科研能力对比}{42}{subsubsection.5.9.3}%
+\contentsline {subsubsection}{\numberline {5.9.4}广东的竞争优势与不足}{42}{subsubsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.10}国际对标分析}{43}{subsection.5.10}%
+\contentsline {subsubsection}{\numberline {5.10.1}全球对比概览}{43}{subsubsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.10.2}美国}{43}{subsubsection.5.10.2}%
+\contentsline {subsubsection}{\numberline {5.10.3}德国}{43}{subsubsection.5.10.3}%
+\contentsline {subsubsection}{\numberline {5.10.4}日本}{43}{subsubsection.5.10.4}%
+\contentsline {subsubsection}{\numberline {5.10.5}对广东的启示}{44}{subsubsection.5.10.5}%
+\contentsline {subsection}{\numberline {5.11}SWOT总结}{44}{subsection.5.11}%
+\contentsline {section}{\numberline {6}配套政策综述}{44}{section.6}%
+\contentsline {subsection}{\numberline {6.1}省级政策}{44}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}研发补贴政策}{45}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}税收减免激励}{45}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}土地资源支持政策}{45}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}融资优惠政策}{46}{subsubsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.5}人才补贴与园区孵化激励}{46}{subsubsection.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.6}政策申请与执行}{46}{subsubsection.6.1.6}%
+\contentsline {subsubsection}{\numberline {6.1.7}政策适配性分析}{47}{subsubsection.6.1.7}%
+\contentsline {subsubsection}{\numberline {6.1.8}与江苏、浙江、上海的省级政策对比}{47}{subsubsection.6.1.8}%
+\contentsline {subsection}{\numberline {6.2}市级政策}{47}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}深圳市级政策}{47}{subsubsection.6.2.1}%
+\contentsline {paragraph}{传统产业——数字化转型与升级。}{48}{section*.55}%
+\contentsline {paragraph}{新兴产业——战略支柱与规模扩张。}{48}{section*.56}%
+\contentsline {paragraph}{未来产业——前瞻赛道与耐心资本。}{48}{section*.57}%
+\contentsline {paragraph}{人才政策。}{48}{section*.58}%
+\contentsline {subsubsection}{\numberline {6.2.2}广州市级政策}{48}{subsubsection.6.2.2}%
+\contentsline {paragraph}{传统产业——硬件升级与AI+融合。}{48}{section*.59}%
+\contentsline {paragraph}{新兴产业——制造基地"第三极"建设。}{49}{section*.60}%
+\contentsline {paragraph}{未来产业——生物融合与前沿研究。}{49}{section*.61}%
+\contentsline {paragraph}{人才政策。}{49}{section*.62}%
+\contentsline {subsection}{\numberline {6.3}国际政策对比}{49}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}战略逻辑：从"市场支撑"到"安全与韧性"}{49}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}关键维度对比}{50}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}广东政策优化建议}{50}{subsubsection.6.3.3}%
+\contentsline {section}{\numberline {7}结论与建议}{51}{section.7}%
+\contentsline {subsection}{\numberline {7.1}主要发现}{51}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}政策建议}{52}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}未来研究方向}{52}{subsection.7.3}%
+\contentsline {section}{\numberline {8}参考资料}{53}{section.8}%

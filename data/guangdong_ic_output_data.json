@@ -1,0 +1,327 @@
+{
+  "_description": "广东省集成电路产业年产值、增长率及细分领域数据",
+  "_updated": "2026-05-26",
+  "_methodology": "数据来自广东省发改委/工信厅官方文件、广东省集成电路行业协会、深圳市半导体行业协会、深芯盟产业研究报告、21世纪经济报道/南方财经、中国半导体行业协会IC设计分会（魏少军ICCAD年度报告）、海关总署、国家统计局等权威来源。若某年份/指标无官方公开数据，标注null并说明原因。",
+  "data": [
+    {
+      "metric": "annual_output_value",
+      "metric_cn": "年度总产值/主营业务收入",
+      "unit": "亿元人民币",
+      "values": [
+        {
+          "year": 2019,
+          "value": 1200,
+          "source_name": "广东省发改委/科技厅/工信厅《广东省培育半导体及集成电路战略性新兴产业集群行动计划（2023-2025年）》",
+          "source_url": "https://www.zhsme.org.cn/newWebchatService/toTextPolicy?id=efa91bfd-4fa5-4a3d-9baf-34e8c5347861",
+          "note": "官方文件原文：'2019年集成电路产业主营业务收入1200亿元'"
+        },
+        {
+          "year": 2020,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "未找到广东省发改委/工信厅或行业协会公开发布的2020年官方数据。根据2019年1200亿到2022年2200亿推算，2020年约为1400-1700亿元区间，但无权威来源确认，故标注null。"
+        },
+        {
+          "year": 2021,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "未找到广东省官方公开发布的2021年数据。全国层面，中国半导体行业协会统计2021年中国IC产业销售额首次突破万亿元（10458.3亿元），但广东省分省数据未见官方公开。"
+        },
+        {
+          "year": 2022,
+          "value": 2200,
+          "source_name": "广东省发改委/科技厅/工信厅《广东省培育半导体及集成电路战略性新兴产业集群行动计划（2023-2025年）》",
+          "source_url": "https://www.zhsme.org.cn/newWebchatService/toTextPolicy?id=efa91bfd-4fa5-4a3d-9baf-34e8c5347861",
+          "note": "官方文件原文：'2022年达到2200亿元，其中集成电路设计业营业收入超过1000亿元'"
+        },
+        {
+          "year": 2023,
+          "value": 2700,
+          "value_is_minimum": true,
+          "source_name": "中商产业研究院/广东中科半导体微纳制造技术研究院《2024年广东半导体与集成电路产业链全景图谱》",
+          "source_url": "https://sinanogd.ac.cn/information-detail?id=40&type=industry",
+          "note": "原文为'2023年，广东省半导体及集成电路产业集群营收超2700亿元'，该数据为'超过'值，实际值可能略高。另有南方网引用中商情报网数据同样为超2700亿元。"
+        },
+        {
+          "year": 2024,
+          "value": 3604.16,
+          "source_name": "21世纪经济报道/南方财经全媒体《广东'强芯'进行时：中国集成电路'第三极'提速崛起》（引用广东省集成电路产业协会行业数据）",
+          "source_url": "https://www.21jingji.com/article/20250613/herald/17098e5cb1713320339afa0ffb342ab0.html",
+          "note": "原文：'一组行业数据显示，2024年广东省集成电路产业营业收入达3604.16亿元'。另有深芯盟产业研究报告佐证：'广东省半导体与集成电路产业总产值2024年达到3600亿元'。注意：中商产业研究院另有'超3200亿元'的口径，差异可能来自统计口径不同（产业集群营收 vs 产业营业收入）。本记录采用更具体的3604.16亿元。"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "截至2026年5月，广东省官方尚未公开发布2025年全年IC产业总产值/主营业务收入数据。已知信息：(1) 2025年是'十四五'收官之年，官方目标为年主营业务收入突破4000亿元；(2) 2026年1月全省工业和信息化工作会议披露，广东芯片设计营收稳居全国第一；(3) 全国2025年IC设计业销售额8357.3亿元（+29.4%，魏少军 ICCAD 2025），广东设计业约占全国25-30%；(4) 2025年广东IC产量942.4亿块（国家统计局），出口约3630亿元（海关总署广东分署/推算），进口1.3万亿元。从产量和出口增速判断，2025年广东IC产业规模接近甚至可能达成4000亿元目标，但需以官方正式数据为准。"
+        }
+      ]
+    },
+    {
+      "metric": "growth_rate",
+      "metric_cn": "同比增长率",
+      "unit": "%",
+      "values": [
+        {
+          "year": 2020,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "缺少2020年产值基数，无法计算增长率。"
+        },
+        {
+          "year": 2021,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "缺少2021年产值基数，无法计算增长率。"
+        },
+        {
+          "year": 2022,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "已知2019年1200亿、2022年2200亿，三年年均复合增长率约22.4%（与官方行动计划目标'年均增长超过22%'一致），但单年同比无法精确计算。"
+        },
+        {
+          "year": 2023,
+          "value": 22.7,
+          "value_is_approximate": true,
+          "source_name": "根据2022年2200亿与2023年超2700亿推算",
+          "source_url": null,
+          "note": "由2200→2700推算的近似值，非官方直接发布的增长率。"
+        },
+        {
+          "year": 2024,
+          "value": 33.5,
+          "value_is_approximate": true,
+          "source_name": "根据2023年约2700亿与2024年3604.16亿推算",
+          "source_url": null,
+          "note": "由2700→3604.16推算的近似值。2024年广东集成电路产量同比增长21.0%（广东省政府工作报告）；深圳IC产业营收同比增长32.9%（深圳市半导体行业协会）。"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "官方尚未发布2025年广东IC产业全年总产值，故全年增长率无法精确计算。参考指标：(1) 广东IC产量942.4亿块，较2024年804亿块增长约17.2%；(2) 广东IC出口约3630亿元，较2024年2785亿元增长33.3%；(3) 深圳2025年上半年IC产业规模同比增长16.9%；(4) 全国2025年IC设计业销售额同比增长29.4%。若2025年广东产值达到4000亿元目标，则较2024年3604.16亿元增长约11.0%，但实际增速可能高于此值，待官方数据确认。"
+        }
+      ]
+    },
+    {
+      "metric": "sub_sector_shares_2024",
+      "metric_cn": "2024年细分领域产值及占比",
+      "unit": "亿元人民币",
+      "total": 3604,
+      "source_name": "深芯盟（深圳市半导体与集成电路产业联盟）产业研究报告《深圳集成电路及国产半导体产业调研报告》",
+      "source_url": "https://semibay.oss-cn-shenzhen.aliyuncs.com/20250801/553c3a91f342457e9c8850b82b36e82f.pdf",
+      "note": "该报告为目前公开可获取的最详细的广东省IC产业细分数据。四个板块产值之和为3604亿元。另有21经济报道提到设计/制造/封测增长率分别为31.13%、101.58%、14.93%，但未给出各板块绝对产值。",
+      "sub_sectors": [
+        {
+          "segment": "IC设计",
+          "segment_en": "IC Design",
+          "value": 2109,
+          "share_of_total": 58.6,
+          "yoy_growth": 31.13,
+          "yoy_growth_source_name": "21世纪经济报道/南方财经（引用广东省集成电路产业协会行业数据）",
+          "yoy_growth_source_url": "https://www.21jingji.com/article/20250613/herald/17098e5cb1713320339afa0ffb342ab0.html"
+        },
+        {
+          "segment": "IC制造",
+          "segment_en": "IC Manufacturing",
+          "value": 92,
+          "share_of_total": 2.6,
+          "yoy_growth": 101.58,
+          "yoy_growth_source_name": "21世纪经济报道/南方财经（引用广东省集成电路产业协会行业数据）",
+          "yoy_growth_source_url": "https://www.21jingji.com/article/20250613/herald/17098e5cb1713320339afa0ffb342ab0.html",
+          "note": "制造环节产值仅92亿元（占比2.6%），为广东IC产业最突出的短板。但同比增速达101.58%，是增长最快的环节，反映出'广东强芯'工程补齐制造短板的初步成效。粤芯半导体2024年营收16.81亿元（招股书数据），是广东省内最大的12英寸晶圆代工企业。"
+        },
+        {
+          "segment": "IC封测",
+          "segment_en": "IC Packaging & Testing",
+          "value": 795,
+          "share_of_total": 22.1,
+          "yoy_growth": 14.93,
+          "yoy_growth_source_name": "21世纪经济报道/南方财经（引用广东省集成电路产业协会行业数据）",
+          "yoy_growth_source_url": "https://www.21jingji.com/article/20250613/herald/17098e5cb1713320339afa0ffb342ab0.html"
+        },
+        {
+          "segment": "装备与材料",
+          "segment_en": "Equipment & Materials",
+          "value": 608,
+          "share_of_total": 16.9,
+          "yoy_growth": null,
+          "yoy_growth_source_name": null,
+          "yoy_growth_source_url": null,
+          "note": "装备与材料为合并数据，无单独拆分的同比增长率公开数据。该板块包含半导体设备、零部件及关键材料（光刻胶、电子特气、高密度封装基板等）。"
+        }
+      ],
+      "cross_reference": {
+        "shenzhen_2024": {
+          "total_revenue": 2839.6,
+          "growth_rate": 32.9,
+          "share_of_province": 78.8,
+          "source_name": "深圳市半导体行业协会《深圳集成电路产业发展报告》（2025中国（深圳）集成电路峰会发布）",
+          "source_url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12240789.html"
+        },
+        "shenzhen_2023_subsectors": {
+          "note": "以下为深圳市（非全省）2023年细分数据，来自深圳市半导体行业协会，仅供参考",
+          "design": { "value": 1437.2, "growth": 30.4 },
+          "packaging_testing": { "value": 420.5, "growth": 41.2 },
+          "equipment": { "value": 156.2, "growth": 29.7 },
+          "source_name": "深圳市半导体行业协会（2024中国（深圳）集成电路峰会发布）",
+          "source_url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_11505696.html"
+        },
+        "government_target_2025": {
+          "total_target": 4000,
+          "annual_growth_target": 22,
+          "design_target": 2000,
+          "manufacturing_target": 1000,
+          "source_name": "广东省发改委/科技厅/工信厅《广东省培育半导体及集成电路战略性新兴产业集群行动计划（2023-2025年）》",
+          "source_url": "https://www.zhsme.org.cn/newWebchatService/toTextPolicy?id=efa91bfd-4fa5-4a3d-9baf-34e8c5347861"
+        },
+        "shenzhen_2025": {
+          "full_year_revenue_estimate": 3000,
+          "full_year_note": "2025年全年深圳IC产业规模突破3000亿元大关（深芯盟/新华网湾芯展报道）。注意：此数据与2024年2839.6亿元的统计口径可能不同（后者来自深圳市半导体行业协会），另有2564亿元口径（深圳市发改委）。2025年上半年深圳IC产业规模1424亿元，同比增长16.9%。",
+          "h1_2025_revenue": 1424,
+          "h1_2025_growth": 16.9,
+          "h1_source_name": "深芯盟/新华网《一场湾芯展，看深圳'比学赶超'的创'芯'力量》",
+          "h1_source_url": "https://www.news.cn/digital/20251020/48d4ce15f77347908c53526325057d4c/c.html",
+          "full_year_source_name": "新浪财经《2025年集成电路产业发展概述》（综合深芯盟数据）",
+          "full_year_source_url": "https://finance.sina.com.cn/roll/2026-02-12/doc-inhmpkam9963661.shtml"
+        },
+        "national_2025_reference": {
+          "ic_design_sales": 8357.3,
+          "ic_design_growth": 29.4,
+          "ic_design_companies": 3901,
+          "ic_design_sales_over_100m_companies": 831,
+          "ic_design_source_name": "中国半导体行业协会集成电路设计分会/魏少军 ICCAD 2025（成都）主题报告",
+          "ic_design_source_url": "https://finance.sina.com.cn/tech/roll/2025-11-20/doc-infxzkvh1004536.shtml",
+          "ic_exports_jan_nov_2025_trillion_rmb": 1.29,
+          "ic_exports_jan_nov_2025_growth": 25.6,
+          "ic_exports_source_name": "海关总署（via福建省工信厅/中国电子报《盘点2025丨半导体产业十大亮点》）",
+          "ic_exports_source_url": "https://gxt.fujian.gov.cn/zwgk/xw/hydt/xydt/202512/t20251231_7069993.htm",
+          "ic_output_q1_q3_2025_billion_units": 3819,
+          "ic_output_q1_q3_2025_growth": 8.6,
+          "ic_output_source_name": "国家统计局（via福建省工信厅/中国电子报）",
+          "ic_output_source_url": "https://gxt.fujian.gov.cn/zwgk/xw/hydt/xydt/202512/t20251231_7069993.htm",
+          "shenzhen_2025_ic_output_growth": 16.0,
+          "shenzhen_2025_ic_output_share_of_national": 14.8,
+          "shenzhen_output_source_name": "2025年深圳市政府工作报告",
+          "shenzhen_output_source_url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12063381.html",
+          "note": "以上为全国层面2025年数据，供对比参考。广东分省2025年全年数据多数尚未公开发布。"
+        }
+      }
+    },
+    {
+      "metric": "ic_output_volume",
+      "metric_cn": "集成电路产量",
+      "unit": "亿块",
+      "values": [
+        {
+          "year": 2019,
+          "value": 360,
+          "source_name": "21世纪经济报道/南方财经",
+          "source_url": "https://www.21jingji.com/article/20250613/herald/17098e5cb1713320339afa0ffb342ab0.html",
+          "note": "原文：'广东芯片产量从2019年的360亿块，到2024年突破800亿块'"
+        },
+        {
+          "year": 2023,
+          "value": 685.74,
+          "source_name": "广东统计局/中商产业研究院",
+          "source_url": "https://sinanogd.ac.cn/information-detail?id=40&type=industry",
+          "note": "同比增长23.8%，跃居全国第二位"
+        },
+        {
+          "year": 2024,
+          "value": 804.0,
+          "source_name": "广东省政府工作报告（2025年）/中商产业研究院",
+          "source_url": "https://www.semibay.cn/hddt/190",
+          "note": "同比增长21.0%，占全国18%"
+        },
+        {
+          "year": 2025,
+          "value": 942.4,
+          "source_name": "国家统计局（广东省官方发布）",
+          "source_url": "https://www.gd.gov.cn/",
+          "note": "2025年广东集成电路产量942.4亿块，较2020年增长152%，全国排名第2位。与2024年804亿块相比增长约17.2%。"
+        }
+      ]
+    },
+    {
+      "metric": "ic_export_value",
+      "metric_cn": "集成电路出口金额",
+      "unit": "亿元人民币",
+      "values": [
+        {
+          "year": 2023,
+          "value": 2419.7,
+          "source_name": "海关总署/中商产业研究院",
+          "source_url": "https://sinanogd.ac.cn/information-detail?id=40&type=industry",
+          "note": "较上年增长19.8%"
+        },
+        {
+          "year": 2024,
+          "value": 2785.0,
+          "source_name": "海关总署/中商产业研究院",
+          "source_url": "https://www.semibay.cn/hddt/190",
+          "note": "较上年增长15.2%"
+        },
+        {
+          "year": 2025,
+          "value": 3630,
+          "value_is_approximate": true,
+          "source_name": "海关总署广东分署（推算值）",
+          "source_url": "https://www.gd.gov.cn/",
+          "note": "2025年广东集成电路出口额约3630亿元，同比增长33.3%。较2024年2785亿元大幅提升，增速显著高于进口增速（+15.5%）。"
+        }
+      ]
+    },
+    {
+      "metric": "ic_import_value",
+      "metric_cn": "集成电路进口金额",
+      "unit": "亿元人民币",
+      "values": [
+        {
+          "year": 2023,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "暂无2023年广东省分省进口数据。"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "source_name": null,
+          "source_url": null,
+          "note": "暂无2024年广东省分省进口数据。"
+        },
+        {
+          "year": 2025,
+          "value": 13000,
+          "source_name": "海关总署广东分署",
+          "source_url": "https://www.gd.gov.cn/",
+          "note": "2025年广东集成电路进口总额1.3万亿元，同比增长15.5%，占广东进口总值的37.5%。半导体制造设备进口736.8亿元（+33.2%），电脑及其零部件进口3519亿元（+19.3%）。进口与出口增速差（+15.5% vs +33.3%）反映出国产替代持续推进。"
+        }
+      ]
+    },
+    {
+      "metric": "ai_core_industry_scale_2025",
+      "metric_cn": "2025年人工智能核心产业规模（关联指标）",
+      "unit": "亿元人民币",
+      "values": [
+        {
+          "year": 2025,
+          "value": 3000,
+          "value_is_approximate": true,
+          "source_name": "广东省政府新闻发布会",
+          "source_url": "https://www.gd.gov.cn/",
+          "note": "约3000亿元。同时，2025年广东省民用无人机产量占全国90%以上，同比增长39%。AI与汽车电子是驱动IC产业增长的核心应用市场。"
+        }
+      ]
+    }
+  ]
+}
